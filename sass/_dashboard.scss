@@ -1,0 +1,33 @@
+.title {
+  font-weight: bold;
+  font-size: 4.6rem;
+  color: #fff;
+  margin-top: 14rem;
+  margin-bottom: 4.9rem;
+  z-index: 1000;
+}
+
+.title span {
+  color: #8176af;
+}
+
+.info-title {
+  font-size: 1.6rem;
+  color: #fff;
+  width: 46rem;
+  height: 7.2rem;
+  line-height: 2.2rem;
+  z-index: 1000;
+}
+
+.lineLeft {
+  z-index: 0;
+  position: absolute;
+  margin-top: 12rem;
+}
+
+.girl img {
+  margin-top: 90px;
+  border-radius: 10rem 10rem 10rem 24rem;
+  border: 1.5rem solid #8176af1c;
+}

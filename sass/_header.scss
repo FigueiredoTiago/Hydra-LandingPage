@@ -1,0 +1,64 @@
+body {
+    background-color: #302c42;
+}
+
+.header {
+    height: 13.3rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 20rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+    cursor: pointer;
+}
+
+.logo-img {
+    margin-right: 1.5rem;
+}
+
+//#######
+
+.nav-link {
+    display: flex;
+    gap: 3.7rem;
+}
+
+.nav-link p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+//####
+
+.nav-button {
+    display: flex;
+    gap: 3.9rem;
+    margin-left: 10rem;
+    
+}
+
+.button {
+    width: 15.4rem;
+    height: 4.8rem;
+    border-radius: 4rem;
+    border: none;
+    font-weight: bold;
+    color: #343045;
+    background-color: #8176AF;
+    cursor: pointer;
+}
+
+.btn-contact {
+    background-color: transparent;
+    border: .2rem solid #fff;
+    color: #fff;
+}
