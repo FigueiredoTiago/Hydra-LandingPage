@@ -7,7 +7,7 @@ body {
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logo {
@@ -27,7 +27,7 @@ body {
 
 .nav-link {
     display: flex;
-    gap: 3.7rem;
+    gap: 3rem;
 }
 
 .nav-link p {
@@ -41,8 +41,7 @@ body {
 
 .nav-button {
     display: flex;
-    gap: 3.9rem;
-    margin-left: 10rem;
+    gap: 1rem;
     
 }
 
@@ -53,12 +52,13 @@ body {
     border: none;
     font-weight: bold;
     color: #343045;
-    background-color: #8176AF;
     cursor: pointer;
+    background-image: linear-gradient(to right, #8176AF, #C0B7E8);
 }
 
 .btn-contact {
-    background-color: transparent;
+    background-image: none;
+    background-color: transparent !important;
     border: .2rem solid #fff;
     color: #fff;
 }

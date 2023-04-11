@@ -8,7 +8,10 @@
 }
 
 .title span {
-  color: #8176af;
+  background-image: linear-gradient(to right, #C0B7E8, #8176AF);
+  background-clip: text;
+  -webkit-background-clip: text; /* Para navegadores Safari e anteriores ao Chrome 26 */
+  color: transparent;
 }
 
 .info-title {
@@ -31,4 +34,39 @@
   margin-left: 7rem;
   border-radius: 10rem 10rem 10rem 24rem;
   border: 1.2rem solid #8176af1c;
+  @include device("s") {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
+
+.info button {
+  width: 21.4rem;
+  height: 4.8rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin-top: 6.5rem;
+}
+
+.info-banner {
+  background: linear-gradient(to right, #342f49, #3A3456);
+  height: 16.7rem;
+  border-radius: 9rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.info-banner h2 {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.info-banner p {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-top: 1rem;
 }
