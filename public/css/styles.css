@@ -255,7 +255,7 @@ body {
 }
 
 .title span {
-  background-image: linear-gradient(to right, #C0B7E8, #8176AF);
+  background-image: linear-gradient(to right, #c0b7e8, #8176af);
   background-clip: text;
   -webkit-background-clip: text; /* Para navegadores Safari e anteriores ao Chrome 26 */
   color: transparent;
@@ -273,7 +273,7 @@ body {
 .lineLeft {
   z-index: 0;
   position: absolute;
-  margin-top: 12rem;
+  margin-top: 5rem;
 }
 
 .girl img {
@@ -281,12 +281,26 @@ body {
   margin-left: 7rem;
   border-radius: 10rem 10rem 10rem 24rem;
   border: 1.2rem solid rgba(129, 118, 175, 0.1098039216);
+  z-index: 1000;
 }
 @media screen and (max-width: 760px) {
   .girl img {
     margin-top: 0;
     margin-left: 0;
   }
+}
+
+.line-1 {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+}
+
+.line-3 {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  margin-top: 20rem;
 }
 
 .info button {
@@ -298,7 +312,7 @@ body {
 }
 
 .info-banner {
-  background: linear-gradient(to right, #342f49, #3A3456);
+  background: linear-gradient(to right, #342f49, #3a3456);
   height: 16.7rem;
   border-radius: 9rem;
   margin-top: 10rem;
