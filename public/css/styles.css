@@ -274,7 +274,8 @@ body {
 }
 
 .girl img {
-  margin-top: 90px;
+  margin-top: 3rem;
+  margin-left: 7rem;
   border-radius: 10rem 10rem 10rem 24rem;
-  border: 1.5rem solid rgba(129, 118, 175, 0.1098039216);
+  border: 1.2rem solid rgba(129, 118, 175, 0.1098039216);
 }/*# sourceMappingURL=styles.css.map */
