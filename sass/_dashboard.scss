@@ -6,9 +6,10 @@
   margin-bottom: 4.9rem;
   z-index: 1000;
   @include device("s") {
+    font-size: 3rem;
     margin-top: 3rem;
     margin-bottom: 0rem;
-    white-space: nowrap;
+    overflow-wrap: break-word;
   }
 }
 
@@ -52,7 +53,7 @@
   @include device("s") {
     margin-top: 5rem;
     margin-left: 0;
-    width: 70vw;
+    width: 90vw;
   }
 }
 

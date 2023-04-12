@@ -302,9 +302,10 @@ body {
 }
 @media screen and (max-width: 760px) {
   .title {
+    font-size: 3rem;
     margin-top: 3rem;
     margin-bottom: 0rem;
-    white-space: nowrap;
+    overflow-wrap: break-word;
   }
 }
 
@@ -356,7 +357,7 @@ body {
   .girl img {
     margin-top: 5rem;
     margin-left: 0;
-    width: 70vw;
+    width: 90vw;
   }
 }
 
