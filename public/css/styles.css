@@ -196,6 +196,36 @@ body {
   font-size: 1.2rem;
   justify-content: space-around;
 }
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+  .header .nav-link,
+  .header .nav-button {
+    display: none;
+  }
+}
+@media screen and (max-width: 760px) {
+  .header .nav-link,
+  .header .nav-button {
+    display: none;
+  }
+}
+
+.menu-mobile {
+  display: none;
+  position: absolute;
+  right: 0;
+}
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+  .menu-mobile {
+    display: block;
+    margin-right: 1rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .menu-mobile {
+    display: block;
+    margin-right: 1rem;
+  }
+}
 
 .logo {
   max-width: 20rem;
@@ -205,9 +235,26 @@ body {
   margin-right: 10rem;
   cursor: pointer;
 }
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+  .logo {
+    position: absolute;
+    left: 0;
+    margin-left: 1rem;
+    margin-right: 0rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .logo {
+    position: absolute;
+    left: 0;
+    margin-left: 1rem;
+    margin-right: 0rem;
+  }
+}
 
 .logo-img {
   margin-right: 1.5rem;
+  width: 9rem;
 }
 
 .nav-link {
@@ -235,7 +282,7 @@ body {
   font-weight: bold;
   color: #343045;
   cursor: pointer;
-  background-image: linear-gradient(to right, #8176AF, #C0B7E8);
+  background-image: linear-gradient(to right, #8176af, #c0b7e8);
 }
 
 .btn-contact {
@@ -281,6 +328,7 @@ body {
   margin-left: 7rem;
   border-radius: 10rem 10rem 10rem 24rem;
   border: 1.2rem solid rgba(129, 118, 175, 0.1098039216);
+  width: 100%;
   z-index: 1000;
 }
 @media screen and (max-width: 760px) {

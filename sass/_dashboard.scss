@@ -34,6 +34,7 @@
   margin-left: 7rem;
   border-radius: 10rem 10rem 10rem 24rem;
   border: 1.2rem solid #8176af1c;
+  width: 100%;
   z-index: 1000;
   @include device("s") {
     margin-top: 0;
