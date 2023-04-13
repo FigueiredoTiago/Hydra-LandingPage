@@ -433,9 +433,10 @@ body {
   margin-bottom: 2rem;
   padding: 6rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  max-width: 120rem;
 }
 @media screen and (max-width: 760px) {
   .info-banner {
