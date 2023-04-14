@@ -572,17 +572,25 @@ body {
   font-weight: lighter;
 }
 
+.info-boy {
+  max-width: 50rem;
+}
 .info-boy .boy {
   border-radius: 131px 49px 169px 41px;
   -moz-border-radius: 131px 49px 169px 41px;
   -webkit-border-radius: 131px 49px 169px 41px;
   border: 0px solid #000000;
   margin-top: 5rem;
-  width: 50rem;
+  width: 100%;
 }
 @media screen and (max-width: 760px) {
   .info-boy .boy {
     width: 90vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .info-boy {
+    margin-right: 8rem;
   }
 }
 
