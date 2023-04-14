@@ -96,7 +96,6 @@
     align-items: center;
     flex-direction: column;
   }
-
 }
 
 .info button {
@@ -108,8 +107,8 @@
   margin-top: 6.5rem;
 
   @include device("s") {
-      width: 60vw;
-      font-size: 1.4rem;
+    width: 60vw;
+    font-size: 1.4rem;
   }
 }
 
@@ -147,15 +146,38 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  &::after {
+    content: "";
+    height: 7rem;
+    border-right: 1px solid #fff;
+    padding-right: 5rem;
+  }
 
   img {
     margin-right: 1rem;
   }
+
+  @include device("m") {
+    padding-right: 3rem;
+  }
+
+  @include device("s") {
+    &::after {
+      display: none;
+    }
+  }
+
 }
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
+  &::after {
+    content: "";
+    height: 7rem;
+    border-right: 1px solid #fff;
+    padding-right: 5rem;
+  }
 
   img {
     margin-right: 1rem;

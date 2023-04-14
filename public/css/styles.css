@@ -462,14 +462,36 @@ body {
   justify-content: center;
   align-items: center;
 }
+.location::after {
+  content: "";
+  height: 7rem;
+  border-right: 1px solid #fff;
+  padding-right: 5rem;
+}
 .location img {
   margin-right: 1rem;
+}
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+  .location {
+    padding-right: 3rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .location::after {
+    display: none;
+  }
 }
 
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.contact::after {
+  content: "";
+  height: 7rem;
+  border-right: 1px solid #fff;
+  padding-right: 5rem;
 }
 .contact img {
   margin-right: 1rem;
@@ -532,4 +554,8 @@ body {
   text-align: justify;
   max-width: 250px;
   margin-top: 2.2rem;
+}
+
+.about {
+  color: #fff;
 }/*# sourceMappingURL=styles.css.map */
