@@ -1,3 +1,48 @@
 .about {
-    color: #fff;
+  padding-top: 10rem;
+  min-height: 100vh;
+  color: #fff;
+  h1 {
+    font-size: 3.6rem;
+    font-weight: bold;
+  }
+  .p-sub {
+    display: flex;
+    align-items: center;
+    font-size: 3.6rem;
+    font-weight: lighter;
+  }
+}
+
+.info-boy {
+  .boy {
+    border-radius: 131px 49px 169px 41px;
+    -moz-border-radius: 131px 49px 169px 41px;
+    -webkit-border-radius: 131px 49px 169px 41px;
+    border: 0px solid #000000;
+    margin-top: 5rem;
+    width: 50rem;
+    @include device("s") {
+      width: 90vw;
+    }
+  }
+}
+
+
+.about-hydra {
+    h1 {
+        margin-top: 17rem;
+    }
+
+    p {
+        padding-top: 1rem;
+        max-width: 60rem;
+        text-align: justify;
+    }
+
+    button {
+        margin-top: 2.5rem;
+        width: 21.4rem;
+        height: 4.8rem;
+    }
 }
