@@ -571,6 +571,25 @@ body {
   font-size: 3.6rem;
   font-weight: lighter;
 }
+@media screen and (max-width: 760px) {
+  .about .p-sub img {
+    display: none;
+  }
+}
+
+.title-about {
+  height: 10rem;
+  margin-bottom: 10rem;
+}
+.title-about .about-p {
+  max-width: 60rem;
+  text-align: justify;
+}
+@media screen and (max-width: 760px) {
+  .title-about {
+    margin-bottom: 4rem;
+  }
+}
 
 .info-boy {
   max-width: 50rem;

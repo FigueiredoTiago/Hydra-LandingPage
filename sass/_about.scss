@@ -13,11 +13,31 @@
     font-size: 3.6rem;
     font-weight: lighter;
   }
+
+  @include device("s") {
+    .p-sub img {
+      display: none;
+    }
+  }
+}
+
+.title-about {
+  height: 10rem;
+  margin-bottom: 10rem;
+
+  .about-p {
+    max-width: 60rem;
+    text-align: justify;
+  }
+
+  @include device("s") {
+    margin-bottom: 4rem;
+  }
 }
 
 .info-boy {
-    max-width: 50rem;
-    .boy {
+  max-width: 50rem;
+  .boy {
     border-radius: 131px 49px 169px 41px;
     -moz-border-radius: 131px 49px 169px 41px;
     -webkit-border-radius: 131px 49px 169px 41px;
@@ -29,8 +49,8 @@
     }
   }
   @include device("l") {
-      margin-right: 8rem;
-    }
+    margin-right: 8rem;
+  }
 }
 
 .about-hydra {
