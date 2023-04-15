@@ -37,6 +37,7 @@
 
 .info-boy {
   max-width: 50rem;
+  z-index: 1000;
   .boy {
     border-radius: 131px 49px 169px 41px;
     -moz-border-radius: 131px 49px 169px 41px;
@@ -54,8 +55,9 @@
 }
 
 .about-hydra {
+  z-index: 1000;
   h1 {
-    margin-top: 17rem;
+    margin-top: 15rem;
   }
 
   p {
@@ -69,4 +71,23 @@
     width: 21.4rem;
     height: 4.8rem;
   }
+}
+
+
+.line-h {
+  position: absolute;
+  right: 0;
+  bottom: 15rem;
+  z-index: -1;
+  transform: scaleX(-1);
+
+
+}
+
+.line2-h {
+  position: absolute;
+  right: 0;
+  bottom: 20rem;
+  z-index: -1;
+  transform: scaleX(-1);
 }
