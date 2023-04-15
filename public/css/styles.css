@@ -559,11 +559,10 @@ body {
 .technologies {
   color: #fff;
   font-size: 2.5rem;
-  margin-top: 10rem;
   text-align: center;
   background-color: #342f49;
-  height: 30rem;
   border-radius: 50rem;
+  height: 30rem;
 }
 @media screen and (max-width: 760px) {
   .technologies {
@@ -583,8 +582,9 @@ body {
 
 .tech {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 .tech img {
   width: 100px;
@@ -593,6 +593,9 @@ body {
 @media screen and (max-width: 760px) {
   .tech {
     flex-direction: column;
+  }
+  .tech img {
+    margin-top: 2rem;
   }
 }
 
