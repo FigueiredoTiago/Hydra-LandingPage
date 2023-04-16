@@ -1,0 +1,28 @@
+.footer {
+    height: 20rem;
+    width: 100%;
+    background-image: linear-gradient(to right, #343045, #3a3456);
+}
+
+.footer-logo {
+    height: 100%;
+    color: #fff;
+    gap: 2rem;
+    padding: 5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    p {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    @include device('s') {
+        img {
+            width: 5rem;
+        }
+    }
+
+   
+}

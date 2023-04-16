@@ -549,6 +549,7 @@ body {
   margin-top: 5rem;
 }
 .card-item img {
+  width: 100%;
   border-radius: 50%;
   margin-bottom: 20px;
   border: 1rem solid rgba(14, 14, 14, 0.2039215686);
@@ -718,4 +719,29 @@ body {
   bottom: 20rem;
   z-index: -1;
   transform: scaleX(-1);
+}
+
+.footer {
+  height: 20rem;
+  width: 100%;
+  background-image: linear-gradient(to right, #343045, #3a3456);
+}
+
+.footer-logo {
+  height: 100%;
+  color: #fff;
+  gap: 2rem;
+  padding: 5rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-logo p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+@media screen and (max-width: 760px) {
+  .footer-logo img {
+    width: 5rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
