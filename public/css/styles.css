@@ -178,11 +178,26 @@ h1 {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-size: 1.6rem;
   font-family: Arial, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #403A5F; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #8176AF; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #403A5F; /* creates padding around scroll thumb */
 }
 
 body {
