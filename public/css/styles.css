@@ -556,6 +556,11 @@ body {
   margin-top: 2.2rem;
 }
 
+.content-tech {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 .technologies {
   color: #fff;
   font-size: 2.5rem;
@@ -563,6 +568,7 @@ body {
   background-color: #342f49;
   border-radius: 50rem;
   height: 30rem;
+  padding: 1.5rem 0;
 }
 @media screen and (max-width: 760px) {
   .technologies {
@@ -613,6 +619,7 @@ body {
   align-items: center;
   font-size: 3.6rem;
   font-weight: lighter;
+  margin-bottom: 2rem;
 }
 @media screen and (max-width: 760px) {
   .about .p-sub img {
@@ -656,6 +663,11 @@ body {
     margin-right: 8rem;
   }
 }
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+  .info-boy {
+    padding-left: 2rem;
+  }
+}
 
 .about-hydra {
   z-index: 1000;
@@ -672,6 +684,14 @@ body {
   margin-top: 2.5rem;
   width: 21.4rem;
   height: 4.8rem;
+}
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+  .about-hydra {
+    padding-left: 2rem;
+  }
+  .about-hydra h1 {
+    margin-top: 0rem;
+  }
 }
 
 .line-h {

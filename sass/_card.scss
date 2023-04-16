@@ -35,6 +35,10 @@
   }
 }
 
+.content-tech {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
 
 
 .technologies {
@@ -44,6 +48,7 @@
   background-color: #342f49;
   border-radius: 50rem;
   height: 30rem;
+  padding: 1.5rem 0;
 
   @include device("s") {
     height: 100%;

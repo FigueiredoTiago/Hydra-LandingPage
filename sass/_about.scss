@@ -12,6 +12,7 @@
     align-items: center;
     font-size: 3.6rem;
     font-weight: lighter;
+    margin-bottom: 2rem;
   }
 
   @include device("s") {
@@ -52,6 +53,10 @@
   @include device("l") {
     margin-right: 8rem;
   }
+
+  @include device("m") {
+    padding-left: 2rem;
+  }
 }
 
 .about-hydra {
@@ -71,8 +76,15 @@
     width: 21.4rem;
     height: 4.8rem;
   }
-}
 
+  @include device("m") {
+    padding-left: 2rem;
+
+    h1 {
+    margin-top: 0rem;
+  }
+  }
+}
 
 .line-h {
   position: absolute;
@@ -80,8 +92,6 @@
   bottom: 15rem;
   z-index: -1;
   transform: scaleX(-1);
-
-
 }
 
 .line2-h {
